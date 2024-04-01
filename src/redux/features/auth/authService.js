@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BACKEND_URL=process.env.REACT_APP_BACKEND_URL
+const BACKEND_URL="https://authz-app-api-rvbc.onrender.com/"
 export const API_URL = `${BACKEND_URL}/api/users/`;
 
 // Validate email
